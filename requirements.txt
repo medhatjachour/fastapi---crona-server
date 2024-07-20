@@ -1,0 +1,7 @@
+SQLAlchemy 
+fastapi 
+pydantic  
+uvicorn 
+passlib 
+bcrypt
+PyJWT 
