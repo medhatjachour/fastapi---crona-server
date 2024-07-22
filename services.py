@@ -1,10 +1,10 @@
 from passlib.hash import bcrypt
 import datetime as _dt
 
-from fastapi_server import database as _database 
+import database as _database 
 import sqlalchemy.orm as _orm
-from fastapi_server import models as _models
-from fastapi_server import schemas as _schemas
+import models as _models
+import schemas as _schemas
 # authentication
 # https://www.youtube.com/watch?v=6hTRw_HK3Ts
 def create_database():

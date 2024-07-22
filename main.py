@@ -1,6 +1,7 @@
 # change the limit to get manual pagination
 # skip and obviously to skip the uer at the beginning 
 # http://127.0.0.1:8000/staff/?skip=0&limit=100 
+
 from sqlalchemy import inspect
 import jwt
 import datetime 
@@ -8,8 +9,8 @@ import shutil
 from typing import List
 import fastapi as _fastapi
 
-from fastapi_server import schemas as _schemas
-from fastapi_server import services as _services
+import schemas as _schemas
+import services as _services
 import sqlalchemy.orm as _orm
 
 app = _fastapi.FastAPI()

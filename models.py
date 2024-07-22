@@ -3,7 +3,7 @@ import datetime as _dt
 from sqlalchemy import Boolean, Column, ForeignKey, Integer, String, DateTime, Date
 from sqlalchemy.orm import relationship
 
-from fastapi_server.database import Base
+from database import Base
 
 
 class Patient(Base):
